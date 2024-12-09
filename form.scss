@@ -1,0 +1,298 @@
+.pix-entry_content{
+
+    h5{
+        font-weight:400;
+        font-size:20px;
+    }
+
+    .wppb-user-forms{
+        width:100%;
+        max-width:100%;
+        // margin:0 auto;
+
+        input[type="password"],
+        input[type="text"],
+        input[type="email"]{
+            border-radius: 0;
+            padding: 5px 10px;
+            border: 1px solid #404041;
+            color: #404041;
+        }
+
+        & + p{
+            width:100%;
+            max-width:300px;
+            margin:0 auto;
+            text-decoration:underline;
+        }
+
+        input[type="submit"]{
+            width:100%;
+            border:1px solid #4c6eab; //jed-med-blue
+            background:#4c6eab; //jed-med-blue
+            font-size:18px;
+            font-weight:500;
+            color:#fff;
+            margin: 0 auto;
+            border-radius:0;
+            display: block;
+            -ms-transition:0.2s ease-in-out all;
+            -o-transition:0.2s ease-in-out all;
+            -moz-transition:0.2s ease-in-out all;
+            -webkit-transition:0.2s ease-in-out all;
+            transition:0.2s ease-in-out all;
+
+            &:hover{
+                background:#003087; //jed-blue
+                border:1px solid #4c6eab; //jed-med-blue
+            }
+        }
+    }
+}
+
+/*User Form - Forgot Password*/
+.pix-mast_section.pix-form_template_design{
+    .pix-entry_content{
+        max-width:400px;
+        margin: 40px auto;
+
+        .wppb-user-forms ul{
+            margin-bottom:10px;
+        }
+
+        h4 {
+            text-align:center;
+        }
+    }
+}
+.pix-subscription_form_section{
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"]{
+        text-align:center;
+    }
+
+    div.wpcf7-response-output {
+        border: none;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.1;
+        text-align: center;
+
+        p {
+            margin-top: 6px;
+            padding: 20px;
+        }
+    }
+}
+
+/*contact form 7*/
+.wpcf7{
+    .wpcf7-form{
+        width: 100%;
+        max-width: 1240px;
+        margin: 0 auto;
+
+        .pix-form_wrapper.contact_us_form{
+            max-width:450px;
+            margin: 0 auto;
+        }
+
+        .pix-form_wrapper.toc_form{
+            .wpcf7-form-control-wrap{
+                width: 100%;
+                display: block;
+                max-width: 300px;
+                margin: 0 auto;
+
+                .wpcf7-checkbox{
+                    display:block;
+                    margin-top:10px;
+                }
+
+                span{
+                    margin-left: 0;
+
+                    input[type="checkbox"]{
+                        margin-right:5px;
+                    }
+                }
+            }
+
+            .pix-form_button_wrapper{
+                max-width: 800px;
+                width: 100%;
+                margin: 15px auto 0;
+                overflow: auto;
+                text-align: center;
+
+                .pix-form_button_half_col{
+                    width: 50%;
+                    max-width: 250px;
+                    margin-left: 20px;
+                    float: none;
+                    display: inline-block;
+
+                    &:first-child{
+                        margin-left:0;
+                    }
+                    
+                }
+            }
+
+            div.wpcf7 .ajax-loader{
+                margin-bottom:10px;
+            }
+        }
+
+        h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color:#404041; //jed-gray
+        }
+
+        h4 {
+            margin:25px 0 15px;
+            font-size: 16px;
+            font-weight: 600;
+            color:#404041; //jed-gray
+        }
+
+        p {
+            margin-bottom:10px;
+        }
+
+        label {
+            font-weight:400;
+            font-size:14px;
+            color:#404041; //jed-gray
+            width:100%;
+        }
+
+        input{
+            &:focus{
+                border-color:#4c6eab; //jed-med-blue    
+            }
+        }
+
+        input[type="text"],
+        input[type="tel"],
+        input[type="email"],
+        input[type="number"],
+        textarea {
+            border-radius: 0;
+            padding: 5px 10px;
+            border: 1px solid #404041;//jed-gray
+            color: #404041;//jed-gray
+        }
+
+        input[type="text"],
+        input[type="tel"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+        }
+
+        input[type="tel"],
+        input[type="email"],
+        select,
+        textarea {
+            margin-top:2%;
+        }
+
+        select{
+            width: 100%;
+            border-radius: 0;
+            border: 1px solid #000;
+            height: 35px;
+        }
+
+        .wpcf7-form-control-wrap.first-name{
+            width:49%;
+            margin:0;
+            margin-right:2%;
+            float:left;
+        }
+        input[type="text"].userform-lefthalf-column-field{
+            width:100%;
+        }
+
+        .wpcf7-form-control-wrap.last-name{
+            width:49%;
+            margin:0;
+            float:left;
+        }
+        input[type="text"].userform-righthalf-column-field{
+            width:100%;
+        }
+
+        input[type="number"] {
+            min-width:200px;
+            border-radius: 0;
+            padding: 5px 10px;
+            border: 1px solid #404041;//jed-gray
+            color: #404041;//jed-gray
+        }
+
+        span.wpcf7-not-valid-tip{
+            clear:left;
+            float:left;
+        }
+
+        input[type="submit"] {
+            width:250px;
+            border:1px solid #4c6eab; //jed-med-blue
+            background:#4c6eab; //jed-med-blue
+            font-size:18px;
+            font-weight:500;
+            color:#fff;
+            margin: 0 auto;
+            border-radius:0;
+            display: block;
+            -ms-transition:0.2s ease-in-out all;
+            -o-transition:0.2s ease-in-out all;
+            -moz-transition:0.2s ease-in-out all;
+            -webkit-transition:0.2s ease-in-out all;
+            transition:0.2s ease-in-out all;
+
+            &:hover{
+                background:#003087; //jed-blue
+                border:1px solid #4c6eab; //jed-med-blue
+            }
+        }
+    }
+}
+
+div.wpcf7 .ajax-loader{
+    display:block;
+    margin:10px auto 0;
+    background-image: none;
+}
+
+.wppb-form-field.wppb-select2.pbpl-class span.select2.select2-container,
+.wppb-form-field.wppb-select2-multiple.pbpl-class span.select2.select2-container{
+    border: 1px solid #000;
+}
+.select2-container--default .select2-selection--single{
+    // border: none !important;
+    border-radius: 0 !important;
+    height: 34px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 35px !important;
+    font-style: normal !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    height: 32px !important;
+}
+.page-template-template-register,
+.page-template-template-two-column-dashboard{
+    .select2-search--dropdown{
+        display:none;
+    }
+    .wppb-form-field.pbpl-class .wppb-description-delimiter,
+    .wppb-form-field.wppb-phone .wppb-description-delimiter{
+        display:none;
+    }
+}

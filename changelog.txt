@@ -1,0 +1,50 @@
+= Version: 1.2.6 =
+* widgetized footer area enhancement
+
+= Version: 1.2.3 =
+* Contact Us Template added
+
+= Version: 1.2.2 =
+* Minor bug fixes
+
+= Version: 1.2.1 =
+* Fullwidth Page Template minor bug fixed
+* Custom Theme Color Option implemented in Customiser 
+
+= Version: 1.2.0 =
+* Social media and Custom CSS option implemented 
+
+= Version: 1.1.9 =
+* Minor Bug Fixes
+
+= Version: 1.1.8 =
+* Minor Bug Fixes
+
+= Version: 1.1.7 =
+* Minor Bug Fixes
+
+= Version: 1.1.6 =
+* Template blog removed
+
+= Version: 1.1.5 =
+* Blog page removed and home page created
+
+= Version: 1.1.4 =
+* Some code correction
+
+= Version: 1.1.3 =
+* Some code enhancement and bug fixes
+
+== Version: 1.1.2 ==
+* minor bug fixes
+
+== Version: 1.1.1 ==
+front-page replaced with index page.
+unwanted code and files deleted.
+
+== Version: 1.1.0 ==
+Theme Option removed and Used WordPress default Customizer.
+Theme issue fixed.
+
+= Version 1.0 =
+May 26, 2015 - Initial release
